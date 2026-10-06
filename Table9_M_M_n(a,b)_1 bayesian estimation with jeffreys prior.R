@@ -4,6 +4,10 @@ rhoSELF=c()
 riskSELF=c()
 rhoPLF=c()
 riskPLF=c()
+x=c()
+numerator=c()
+denomenator=c()
+numerator1=c()
 for(t in 1:1000){
 for(i in 1:n){
   x[i]=rgeom(1,1/(1+(b*rho)))
